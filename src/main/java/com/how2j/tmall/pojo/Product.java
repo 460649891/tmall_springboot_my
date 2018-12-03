@@ -109,4 +109,7 @@ public class Product {
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
     }
+
+    public void setFirstProductImage(ProductImage productImage) {
+    }
 }
