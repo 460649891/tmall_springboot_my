@@ -59,4 +59,8 @@ public class PropertyService {
         propertyDao.save(bean);
     }
 
+    List<Property> findByCategory(Category category) {
+        return propertyDao.findByCategory(category);
+    }
+
 }
